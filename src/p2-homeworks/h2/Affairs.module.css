@@ -1,0 +1,14 @@
+.affair {
+    display: flex;
+}
+
+.button {
+    margin: 10px;
+    width: 60px;
+    outline: none;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+}

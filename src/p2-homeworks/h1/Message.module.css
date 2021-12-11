@@ -1,0 +1,63 @@
+.message {
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.ava {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.cloud {
+    background: gray;
+    max-width: 400px;
+    margin: 5px 0px 5px 40px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 25px;
+    position: relative;
+    line-height: 1.5em;
+}
+
+.cloud::after, .cloud::before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .5em;
+    width: 1.8em;
+    height: 1.8em;
+    border: .5em solid white;
+    border-radius: 50%;
+    background: white;
+}
+
+
+.cloud::before {
+    border-top: none;
+    height: .9em;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: gray;
+    border-color: gray;
+    margin-right: -.9em;
+}
+
+.name {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.cloudmessage {
+    font-size: 13px;
+    padding-bottom: -10px;
+}
+
+.time {
+    float: right;
+    font-size: 8px;
+    color: white;
+}
+
+

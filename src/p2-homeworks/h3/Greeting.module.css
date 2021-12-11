@@ -1,0 +1,8 @@
+.greeting {
+    display: flex;
+}
+
+.error {
+    border: 1px solid red;
+    height: 30px;
+}

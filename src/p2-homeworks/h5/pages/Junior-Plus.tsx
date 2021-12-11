@@ -2,7 +2,7 @@ import React from "react";
 
 function Junior_Plus () {
     return (
-        <div> Junior</div>
+        <div> JuniorPlus </div>
     )
 }
 
